@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Udalekuak</title>
+
+    <script src="jquery-3.1.1.min%20(1).js"></script>
+
+    <script src="modelo/Persona.js"></script>
+    <script src="modelo/Tutor.js"></script>
+    <script src="modelo/Menor.js"></script>
+    <script src="modelo/CentroEducativo.js"></script>
+
+
+    <script src="controlador/controladora.js"></script>
+
+
+
+</head>
+<body>
+
+<form  id="miFormulario">
+    <div class="tutor">
+        <legend>Datos del Tutor</legend>
+
+        <label for="dniTutor"><span class="asterisco">*</span> DNI/NIF</label>
+        <input id="dniTutor" name="dniTutor" type="text" maxlength="9"/>
+        <label for="nombreTutor"><span class="asterisco">*</span> Nombre</label>
+        <input id="nombreTutor" name="nombreTutor" type="text" class="texto" maxlength="20">
+
+
+        <label for="ape1Tutor"><span class="asterisco">*</span> Primer Apellido:</label>
+        <input id="ape1Tutor" name="ape1Tutor" type="text" class="texto" maxlength="25" >
+
+
+    </div>
+</form>
+
+
+<form id="Menor1">
+
+</form>
+
+<form id="Menor2">
+
+</form>
+
+<form id="Menor3">
+
+</form>
+
+<br>
+<input type="button" id="addMenor" value="Añadir otro participante a la inscripción" />
+<input type="button" id="finInscripcion" value="Finalizar Inscripción" />
+<input type="button" id="borrar" value="borrar"/>
+
+</body>
+</html>
+</body>
+</html>
